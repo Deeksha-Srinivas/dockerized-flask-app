@@ -5,10 +5,10 @@ This project demonstrates how to **containerize a Flask application** using Dock
 It allows for easy deployment and ensures that the app runs consistently across different environments.  
 
 ##  Features  
--Lightweight Flask application  
--Dockerized for portability  
--Simple setup with minimal dependencies  
--Easily extendable for production use  
+- Lightweight Flask application  
+- Dockerized for portability  
+- Simple setup with minimal dependencies  
+- Easily extendable for production use  
 
 ---
 
@@ -21,19 +21,38 @@ It allows for easy deployment and ensures that the app runs consistently across 
 ##  Getting Started  
 
 ###  1. Clone the Repository  
- ```bash
+```bash
 git clone https://github.com/yourusername/dockerized-flask-app.git
 cd dockerized-flask-app
- ```bash
-###  2. Build the Docker Image
+```
+
+###  2. Build the Docker Image  
 ```bash
 docker build -t flask-app .
-```bash
-###  3. Run the Docker Container
+```
+
+###  3. Run the Docker Container  
 ```bash
 docker run -p 5000:5000 flask-app
-```bash
-Now, open http://localhost:5000 in your browser.
+```
+Now, open **http://localhost:5000** in your browser.
 
-## License
-This project is open-source and free to use under the MIT License.
+---
+
+##  Project Structure  
+
+```
+dockerized-flask-app/
+│── app.py                # Main Flask application
+│── requirements.txt      # Python dependencies
+│── Dockerfile           # Instructions for building the Docker image
+│── README.md            # Project documentation
+└── templates/            # HTML files (if applicable)
+```
+
+---
+
+##  License  
+This project is **open-source** and free to use under the **MIT License**.
+
+---
