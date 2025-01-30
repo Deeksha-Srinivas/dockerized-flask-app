@@ -22,7 +22,7 @@ It allows for easy deployment and ensures that the app runs consistently across 
 
 ###  1. Clone the Repository  
 ```bash
-git clone https://github.com/yourusername/dockerized-flask-app.git
+git clone https://github.com/Deeksha-Srinivas/dockerized-flask-app.git
 cd dockerized-flask-app
 ```
 
